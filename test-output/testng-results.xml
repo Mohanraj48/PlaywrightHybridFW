@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-19T08:02:11Z" name="Playwright Opencart testcases" finished-at="2025-05-19T08:02:27Z" duration-ms="15962">
+    <groups>
+    </groups>
+    <test started-at="2025-05-19T08:02:11Z" name="Opencart Login Test" finished-at="2025-05-19T08:02:26Z" duration-ms="14858">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@158a8276]" started-at="2025-05-19T08:02:11Z" name="setup" finished-at="2025-05-19T08:02:24Z" duration-ms="12766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToLoginPageTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@158a8276]" started-at="2025-05-19T08:02:24Z" name="navigateToLoginPageTest" finished-at="2025-05-19T08:02:25Z" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPageTest -->
+        <test-method signature="forgotPasswordLinkExistTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@158a8276]" started-at="2025-05-19T08:02:25Z" name="forgotPasswordLinkExistTest" finished-at="2025-05-19T08:02:25Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkExistTest -->
+        <test-method signature="loginPageTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@158a8276]" started-at="2025-05-19T08:02:25Z" name="loginPageTest" finished-at="2025-05-19T08:02:25Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@158a8276]" started-at="2025-05-19T08:02:25Z" name="teardown" finished-at="2025-05-19T08:02:26Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Opencart Login Test -->
+    <test started-at="2025-05-19T08:02:11Z" name="Opencart Homepage Test" finished-at="2025-05-19T08:02:27Z" duration-ms="15962">
+      <class name="com.qa.opencart.tests.HomepageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:11Z" name="setup" finished-at="2025-05-19T08:02:24Z" duration-ms="13139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:24Z" name="homepageTitleTest" finished-at="2025-05-19T08:02:24Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTitleTest -->
+        <test-method signature="homepageUrlTest()[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:24Z" name="homepageUrlTest" finished-at="2025-05-19T08:02:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageUrlTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:24Z" name="searchTest" data-provider="getSearchData" finished-at="2025-05-19T08:02:25Z" duration-ms="595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:25Z" name="searchTest" data-provider="getSearchData" finished-at="2025-05-19T08:02:26Z" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:26Z" name="searchTest" data-provider="getSearchData" finished-at="2025-05-19T08:02:26Z" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sony]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:26Z" name="searchTest" data-provider="getSearchData" finished-at="2025-05-19T08:02:27Z" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[canon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.opencart.tests.HomepageTest@1ff4931d]" started-at="2025-05-19T08:02:27Z" name="teardown" finished-at="2025-05-19T08:02:27Z" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.opencart.tests.HomepageTest -->
+    </test> <!-- Opencart Homepage Test -->
+  </suite> <!-- Playwright Opencart testcases -->
+</testng-results>
