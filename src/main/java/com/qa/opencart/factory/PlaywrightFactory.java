@@ -52,7 +52,7 @@ public class PlaywrightFactory {
 	
 	public Page initBrowser(Properties prop)
 	{
-		String browserName= prop.getProperty("Browser").trim();
+		String browserName= prop.getProperty("browser").trim();
 		
 		//playwright = Playwright.create();
 		
@@ -76,6 +76,11 @@ public class PlaywrightFactory {
 		case "chrome":
 			//browser = playwright.chromium().launch(new LaunchOptions().setChannel("chrome").setHeadless(false));
 			tlBrowser.set(getPlaywright().chromium().launch(new LaunchOptions().setChannel("chrome").setHeadless(false)));
+			break;
+		
+		case "edge":
+			//browser = playwright.chromium().launch(new LaunchOptions().setChannel("msedge").setHeadless(false));
+			tlBrowser.set(getPlaywright().chromium().launch(new LaunchOptions().setChannel("msedge").setHeadless(false)));
 			break;
 
 		default:

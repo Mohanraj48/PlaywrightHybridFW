@@ -6,25 +6,10 @@
       <class name="com.qa.opencart.tests.LoginPageTest">
         <methods>
           <include name="setup"/>
-          <include name="forgotPasswordLinkExistTest"/>
           <include name="loginPageTest"/>
           <include name="teardown"/>
-          <include name="navigateToLoginPageTest"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </classes>
   </test> <!-- Opencart Login Test(failed) -->
-  <test thread-count="2" parallel="tests" name="Opencart Homepage Test(failed)" verbose="4">
-    <classes>
-      <class name="com.qa.opencart.tests.HomepageTest">
-        <methods>
-          <include name="homepageTitleTest"/>
-          <include name="searchTest"/>
-          <include name="setup"/>
-          <include name="homepageUrlTest"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.qa.opencart.tests.HomepageTest -->
-    </classes>
-  </test> <!-- Opencart Homepage Test(failed) -->
 </suite> <!-- Failed suite [Playwright Opencart testcases] -->

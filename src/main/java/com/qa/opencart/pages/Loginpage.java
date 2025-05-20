@@ -1,6 +1,7 @@
 package com.qa.opencart.pages;
 
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 
 public class Loginpage {
 	Page page;
@@ -32,6 +33,7 @@ public class Loginpage {
 		page.fill(emailID, appUserName);
 		page.fill(password, appPassword);
 		page.click(loginBtn);
+		page.waitForLoadState(LoadState.LOAD);
 		
 		if (page.isVisible(logoutLinkVisible))
 		{

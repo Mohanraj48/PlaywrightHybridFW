@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Playwright Opencart testcases" thread-count = "2" parallel = "tests" verbose="4">
+<suite name="Playwright Opencart testcases" thread-count = "5" parallel = "tests" verbose="4">
 
-  <test name="Opencart Homepage Test">
+  <test name="Opencart Homepage Test_chrome">
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="com.qa.opencart.tests.HomepageTest"/>
     </classes>
   </test>
   
-  <test name="Opencart Login Test">
+  <test name="Opencart Login Test_firefox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="com.qa.opencart.tests.LoginPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Opencart Homepage Test_safari">
+  <parameter name="browser" value="safari" />
+    <classes>
+      <class name="com.qa.opencart.tests.HomepageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Opencart Login Test_chromium">
+  <parameter name="browser" value="chromium" />
     <classes>
       <class name="com.qa.opencart.tests.LoginPageTest"/>
     </classes>
