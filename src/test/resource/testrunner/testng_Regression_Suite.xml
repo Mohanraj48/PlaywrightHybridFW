@@ -30,4 +30,11 @@
     </classes>
   </test>
   
+   <test name="Opencart Login Test_edge">
+  <parameter name="browser" value="edge" />
+    <classes>
+      <class name="com.qa.opencart.tests.LoginPageTest"/>
+    </classes>
+  </test>
+  
 </suite>
